@@ -15,6 +15,12 @@ cogni_dao:
   signal_contract: "0x3449010de932887ee6b239f6e385f423bef469a6"
   chain_id: "8453"
 
+# Operator wallet configuration (Privy-managed)
+# address: Privy-managed EOA that receives operator share from Split
+# Split contract address is written to payments_in.credits_topup.receiving_address after activation.
+operator_wallet:
+  address: "0xdCCa8D85603C2CC47dc6974a790dF846f8695056"
+
 knowledge:
   database: "knowledge_test_cog"
   remote:
